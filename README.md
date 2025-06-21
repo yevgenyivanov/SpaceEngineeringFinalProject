@@ -42,6 +42,10 @@ The program will:
 - `algorithms.py`: Core algorithms (brute-force ID, SPHT matching, orientation validation)
 - `helper_functions.py`: Utility functions for detection, SPHT generation, visualization, and math.
 - `requirements.txt`: Python package dependencies.
+- `bsc5-short.json`: Brightest stars in the visible sky catalog.
+- `virgo_stars.json`: ~80 Stars in the virgo constellation.
+- `Photos/`: Images read and used by the algorithms.
+- `Detect/`: Proccessed images for referencing the detection points. 
 
 ## Notes
 

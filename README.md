@@ -48,6 +48,7 @@ The program will:
 - Uses a subset of the Bright Star Catalog (BSC) stored as `bsc5-short.json`.
 - Matching relies on geometric similarity between triangles formed by detected stars and catalog entries.
 - Confidence scores are based on vote frequency from multiple matched triplets.
+- Brute forcing the entire hashing of the catalog would take an elongated time. The code samples hard coded values for the Ursa Major and Vigro for demonstration purposes.
 
 ## License
 

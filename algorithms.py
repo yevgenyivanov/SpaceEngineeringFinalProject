@@ -333,14 +333,14 @@ def find_confidenceMean(matching):
 if __name__ == "__main__":
     # detected_stars = detect_stars("ursa-major-reduced.png")
     # visualize_stars("ursa-major-reduced.png",detected_stars, "ursa-major-detected.png")
-    img1 = "Photos/ursa-major-reduced.png"
-    # img1 = "Photos/virgo_reduced.jpeg"
+    # img1 = "Photos/ursa-major-reduced.png"
+    img1 = "Photos/virgo_reduced.jpeg"
     # 
     # img1 = "COTS_ursa_major_modified.png"
     
     
-    img2 = "Photos/ursa-major-original.jpg"
-    # img2 = "Photos/virgo_constellation.jpg"
+    # img2 = "Photos/ursa-major-original.jpg"
+    img2 = "Photos/virgo_constellation.jpg"
     # 
     # img2 = "ursa-major-reduced_180.png"
     detected_stars_1 = detect_stars(img1)
@@ -369,7 +369,20 @@ if __name__ == "__main__":
     ]
 
     star_catalog = [
-        #STARS IN VIRGO in virgo.json
+        #Random sampled STARS IN VIRGO from virgo.json
+        { "B": "α", "N": "Spica", "C": "Vir", "Dec": "-11° 09′ 41″", "F": "67", "HR": "5056", "K": "28000", "RA": "13h 25m 11.6s", "V": "0.98" },
+        { "B": "ζ", "N": "Heze", "C": "Vir", "Dec": "-00° 35′ 45″", "F": "79", "HR": "5107", "K": "9250", "RA": "13h 34m 41.6s", "V": "3.37" },
+        { "B": "δ", "N": "Auva", "C": "Vir", "Dec": "+03° 23′ 51″", "F": "43", "HR": "4910", "K": "3050", "RA": "12h 55m 36.2s", "V": "3.38" },
+        { "B": "γ", "N": "Porrima", "C": "Vir", "Dec": "-01° 26′ 58″", "F": "29", "HR": "4825", "K": "7500", "RA": "12h 41m 39.6s", "V": "3.65" },
+        { "B": "ε", "N": "Vindemiatrix", "C": "Vir", "Dec": "+10° 57′ 33″", "F": "47", "HR": "4932", "K": "5200", "RA": "13h 02m 10.6s", "V": "2.83" },
+        { "B": "β", "N": "Zavijava", "C": "Vir", "Dec": "+01° 45′ 53″", "F": "5", "HR": "4540", "K": "6150", "RA": "11h 50m 41.7s", "V": "3.61" },
+        { "B": "ι", "N": "Syrma", "C": "Vir", "Dec": "-06° 00′ 02″", "F": "99", "HR": "5338", "K": "6600", "RA": "14h 16m 00.9s", "V": "4.08" },
+        { "B": "σ", "C": "Vir", "Dec": "+05° 28′ 11″", "F": "60", "HR": "5015", "K": "3350", "RA": "13h 17m 36.3s", "V": "4.80" },
+        { "B": "π", "C": "Vir", "Dec": "+06° 36′ 51″", "F": "8", "HR": "4589", "K": "8750", "RA": "12h 00m 52.4s", "V": "4.66" },
+        { "C": "Vir", "Dec": "-19° 55′ 51″", "F": "55", "HR": "4995", "K": "5400", "RA": "13h 14m 10.9s", "V": "5.33" },
+        { "C": "Vir", "Dec": "-09° 18′ 48″", "F": "95", "HR": "5290", "K": "7200", "RA": "14h 06m 42.8s", "V": "5.46" },
+        { "C": "Vir", "Dec": "-10° 20′ 04″", "F": "96", "HR": "5298", "K": "5200", "RA": "14h 09m 00.6s", "V": "6.47" },
+        { "B": "ρ", "C": "Vir", "Dec": "+10° 14′ 08″", "F": "30", "HR": "4828", "K": "10000", "RA": "12h 41m 53.1s", "V": "4.88" }
     ]
     
     # random.seed(42)
